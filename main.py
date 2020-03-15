@@ -1,9 +1,6 @@
 import string
 import random as r
 import secrets
-import pyperclip as clip
-from os import system as s
-
 
 class password:
     """ 
@@ -93,7 +90,7 @@ class passwordWorded(password):
         nums = []
         for _ in range(x):
             nums.append(str(secrets.randbelow(10)))
-            
+
         return "".join(nums)
 
     def create(self):
