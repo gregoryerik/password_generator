@@ -1,3 +1,10 @@
+"""
+:author: gregoryerik
+:url: https://github.com/gregoryerik/password_generator
+:date: 15/03/2020 <dd/mm/yyyy>
+
+"""
+
 import string
 import random as r
 import secrets
